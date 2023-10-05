@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meine Miniwebseite</title>
+    <style>
+      .konta {
+        text-align: center;
+        font-size: 76px;
+      }
+      input {
+        font-size: 20px;
+        border: solid 5px aquamarine;
+        background-color: aqua;
+      }
+      select {
+        font-size: 20px;
+        border: solid 5px aquamarine;
+        background-color: aqua;
+      }
+      button{
+      font-size: 20px;
+      border: solid 5px aquamarine;
+      background-color: aqua;
+      font-size: 30px;
+      margin-bottom: 20px;
+     }
+    </style>
+  </head>
+  <body>
+    <!-- Menü -->
+    <header>
+      <table>
+        <tr>
+          <th><a href="index.html">Startseite</a></th>
+          <th><a href="produ.html">Produkt</a></th>
+          <th><a href="konta.html">Kontakt</a></th>
+          <th><a href="impre.html">Impressum</a></th>
+        </tr>
+      </table>
+    </header>
+    <!-- Inhalt -->
+    <main class="konta">
+      <h1>Kontaktformular</h1>
+      <form>
+        <div>
+          <label>Kunde:</label>
+          <select>
+            <option>Privat</option>
+            <option>Unternehmen</option>
+          </select>
+        </div>
+        <div>
+          <label>Geschlecht:</label>
+          <select>
+            <option>Männlich</option>
+            <option>Weiblich</option>
+            <option>Divers</option>
+          </select>
+        </div>
+        <div>
+          <label>Vorname:</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Nachname:</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Telefon:</label>
+          <input type="tel" />
+        </div>
+        <div>
+          <label>E-Mail:</label>
+          <input type="email" />
+        </div>
+        <div class="nachrechts">
+          <button>Senden</button>
+        </div>
+      </form>
+    </main>
+    <!-- Fußzeile -->
+    <footer>
+      <div>
+        <h4>Kontakt</h4>
+        <p>Herr Mustermann</p>
+        <p>Tel: 017838332</p>
+        <p>E-Mail: mustermann@somewhere.com</p>
+        <p>Adresse: Eine Straße 1-9, 20103 Irgendwo</p>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <p><a href="dschu.html">Datenschutz</a></p>
+        <p><a href="agb.html">AGB</a></p>
+        <p><a href="uberu.html">Über uns</a></p>
+      </div>
+      <div class="disc">
+        <h4>Disclaimer</h4>
+        <p>
+          Mit Urteil vom 12. Mai 1998 - 312 O 85/98 - "Haftung für Links" hat
+          das Landgericht (LG) Hamburg entschieden, dass man durch das Setzen
+          eines Links, die Inhalte der gelinkten Seite ggf. mit zu verantworten
+          hat. Dies kann - so das LG - nur dadurch verhindert werden, dass man
+          sich ausdrücklich von diesen Inhalten distanziert. Hiermit
+          distanzieren wir uns ausdrücklich von den verlinkten Seiten
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
